@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#f7f5ef" />
+    <meta
+      name="description"
+      content="Find your car and make more room for the journey with Sakay Ta car rentals."
+    />
+    <title>Sakay Ta — Car rentals for the long way round</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#" aria-label="Sakay Ta home">
+        <span class="brand-mark" aria-hidden="true">s<span>t</span></span>
+        <span class="brand-name">sakay<span>ta</span></span>
+      </a>
+      <button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false">
+        <span></span><span></span>
+      </button>
+      <nav class="main-nav" aria-label="Main navigation">
+        <a href="#fleet">Our cars</a>
+        <a href="#how-it-works">How it works</a>
+        <a href="#stories">Why Sakay Ta</a>
+      </nav>
+      <a class="nav-cta" href="#fleet">Find your car <span aria-hidden="true">↗</span></a>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-copy">
+          <div class="eyebrow"><span class="eyebrow-dot"></span> YOUR NEXT ROAD STORY STARTS HERE</div>
+          <h1>Good trips<br />start with <span>“Sakay ta.”</span></h1>
+          <p class="hero-description">
+            A comfortable car for family days out, weekend escapes, and the scenic route in between.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-dark" href="#fleet">Explore the fleet <span aria-hidden="true">↗</span></a>
+            <span class="hero-note"><span class="note-star">✳</span> Made for the long way round</span>
+          </div>
+          <div class="hero-proof">
+            <div class="avatar-stack" aria-hidden="true">
+              <span>J</span><span>M</span><span>A</span><span>+</span>
+            </div>
+            <div><strong>Good rides, good people.</strong><small>Road-trip ready since day one</small></div>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="hero-art" id="hero-art"></div>
+          <div class="image-shade"></div>
+          <div class="image-label"><span class="label-spark">✳</span><span>Take the scenic<br />route.</span></div>
+          <div class="trip-stamp"><span>YOUR<br />OWN<br />PACE</span><span class="stamp-arrow">↗</span></div>
+          <div class="hero-caption"><span class="caption-line"></span> ONE CAR. A WHOLE LOT OF POSSIBILITIES.</div>
+        </div>
+        <div class="hero-decoration" aria-hidden="true">S</div>
+      </section>
+
+      <section class="trust-strip" aria-label="Rental benefits">
+        <span><span class="check">✓</span> Clear, upfront pricing</span>
+        <span><span class="check">✓</span> Vetted, road-ready cars</span>
+        <span><span class="check">✓</span> Your trip, your way</span>
+        <span class="trust-aside">Less planning. More <em>laag.</em></span>
+      </section>
+
+      <section class="fleet-section section-wrap" id="fleet">
+        <div class="section-heading">
+          <div>
+            <div class="eyebrow"><span class="eyebrow-dot"></span> MEET YOUR RIDE</div>
+            <h2>Pick your <span>plus-one.</span></h2>
+            <p>Everyday family cars and adventure-ready rides for your next trip.</p>
+          </div>
+          <div class="fleet-controls" role="group" aria-label="Filter cars by type">
+            <button class="filter-button is-active" type="button" data-filter="all" aria-pressed="true">All cars</button>
+            <button class="filter-button" type="button" data-filter="family" aria-pressed="false">Family</button>
+            <button class="filter-button" type="button" data-filter="adventure" aria-pressed="false">Adventure</button>
+          </div>
+        </div>
+        <div class="van-grid" id="van-grid" aria-live="polite"></div>
+        <div class="fleet-footnote"><span>✳</span> Every car comes with a full tank and a fresh clean.</div>
+      </section>
+
+      <section class="journey-section" id="how-it-works">
+        <div class="journey-art" aria-hidden="true">
+          <div class="sun"></div>
+          <div class="road road-back"></div>
+          <div class="road road-front"></div>
+          <div class="journey-scribble">the good<br />kind of lost<span>↗</span></div>
+        </div>
+        <div class="journey-copy">
+          <div class="eyebrow eyebrow-light"><span class="eyebrow-dot"></span> NO COMPLICATED STUFF</div>
+          <h2>Three little steps.<br /><span>One big trip.</span></h2>
+          <div class="steps">
+            <div class="step"><span class="step-number">01</span><div><strong>Find your fit</strong><p>Pick the car that feels right for your trip.</p></div></div>
+            <div class="step"><span class="step-number">02</span><div><strong>Make it yours</strong><p>Choose your dates and send your booking request.</p></div></div>
+            <div class="step"><span class="step-number">03</span><div><strong>Hit the road</strong><p>We’ll be in touch to help get your trip rolling.</p></div></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="quote-section" id="stories">
+        <span class="quote-mark" aria-hidden="true">“</span>
+        <p>Ayaw pagdali.<br />The best stories take the <em>long way.</em></p>
+        <span class="quote-translation">DON’T RUSH. MAKE THE JOURNEY PART OF THE STORY.</span>
+        <a class="quote-link" href="#fleet">Find your long way <span aria-hidden="true">↗</span></a>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <a class="brand brand-footer" href="#"><span class="brand-mark" aria-hidden="true">s<span>t</span></span><span class="brand-name">sakay<span>ta</span></span></a>
+      <span>For the trips you’ll talk about later.</span>
+      <span class="footer-locale">Made for the road <span aria-hidden="true">✳</span></span>
+    </footer>
+
+    <dialog class="booking-dialog" id="booking-dialog" aria-labelledby="booking-title">
+      <button class="dialog-close" type="button" aria-label="Close booking form">×</button>
+      <div class="dialog-kicker"><span class="eyebrow-dot"></span> LET’S GET YOU GOING</div>
+      <h2 id="booking-title">Make it a <span>road trip.</span></h2>
+      <p class="dialog-intro" id="booking-van-name">Tell us a little about your plans.</p>
+      <form id="booking-form">
+        <input type="hidden" id="booking-van-id" name="vanId" />
+        <label for="renter-name">Your name</label>
+        <input id="renter-name" name="name" type="text" autocomplete="name" placeholder="e.g. Alex Rivera" required maxlength="80" />
+        <label for="renter-email">Email address</label>
+        <input id="renter-email" name="email" type="email" autocomplete="email" placeholder="you@example.com" required maxlength="120" />
+        <div class="form-row">
+          <div><label for="start-date">Pick-up date</label><input id="start-date" name="startDate" type="date" required /></div>
+          <div><label for="rental-days">How many days?</label><input id="rental-days" name="days" type="number" min="1" max="30" value="2" required /></div>
+        </div>
+        <div class="price-summary"><span>Estimated total</span><strong id="booking-total">—</strong></div>
+        <p class="form-note">This is a booking request — we’ll confirm availability with you.</p>
+        <button class="button button-dark submit-booking" type="submit">Send booking request <span aria-hidden="true">↗</span></button>
+      </form>
+    </dialog>
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  </body>
+</html>
